@@ -43,7 +43,7 @@ Jeg har lavet noget begyndende kode i dette projekt, som I kan tage udgangspunkt
 til at køre på jeres lokale maskine:
 
 1. Åbn din terminal og naviger hen til mappen hvor du ønsker dette projekt skal ligge (HINT: `cd` bruges til at skifte mappe)
-2. `git clone RET TIL EGET REPO!`
+2. `git clone https://github.com/Distribuerede-Systemer-2018/restfull-dis`
 3. Åbn IntelliJ, og vælg `Import Project`. Her vælger i, `Maven` under `Import project from external model`
 4. Du er færdig!
 
