@@ -75,6 +75,10 @@ Da vi ikke har tilkoblet en database endnu, så har jeg oprettet en falsk databa
 ##### 4.1 Opgave
 Når du åbner `http://localhost:8080/api/users` skal serveren returnere alle brugerene i vores system, i JSON format
 
+##### Gson
+Gson er et Java library, der bruges til at konvertere JSON til objekter og omvendt.
+Inden du går videre til næste opgave, så se disse eksempler, så du forstår hvordan gson bruges. 
+
 ##### 4.2 Opgave
 Færddigør `createUser()` metoden (main/java/server/endpoints/UserEndpoint), så der kan oprettes nye brugere i systemet. Til at teste dette kan programmer som f.eks. Advanced Rest Client eller Postman bruges.
 
