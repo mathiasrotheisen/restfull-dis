@@ -1,4 +1,4 @@
-## 6. Øvelsesgang - Workshop
+## Restfull dis
 Vi skal i dag prøve at bygge "en rigtig" restfull webservice, som kunne være inspiration
 til jeres eksamensprojekt. Vi skal prøve at lege med frameworket Jersey, som har en masse
 indbygget funktionalitet der hjælper os hurtigt i gang med at lave en webservice.
