@@ -77,7 +77,7 @@ Når du åbner `http://localhost:8080/api/users` skal serveren returnere alle br
 
 ##### Gson
 Gson er et Java library, der bruges til at konvertere JSON til objekter og omvendt.
-Inden du går videre til næste opgave, så se eksemplerne på `https://github.com/google/gson/blob/master/UserGuide.md#TOC-Primitives-Examples`, så du forstår hvordan gson bruges.
+Inden du går videre til næste opgave, så se eksemplerne på https://github.com/google/gson/blob/master/UserGuide.md#TOC-Primitives-Examples, så du forstår hvordan gson bruges.
 
 ##### 4.2 Opgave
 Færddigør `createUser()` metoden (main/java/server/endpoints/UserEndpoint), så der kan oprettes nye brugere i systemet. Til at teste dette kan programmer som f.eks. Advanced Rest Client eller Postman bruges.
