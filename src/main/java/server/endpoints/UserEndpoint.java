@@ -29,9 +29,9 @@ public class UserEndpoint {
     public Response getUserById(@PathParam("id") int id){
 
         //Lidt hjælp
-        //
-        //UserTable userTable = UserTable.getInstance();
-        //User foundUser = userTable.findById(id);
+        //Kig på din createUser metode
+        //Du skal kalde en metode på din userTable som returnere en bruger
+        //Denne bruger skal sendes til tilbage som JSON
 
         return Response
                 .status(200)
