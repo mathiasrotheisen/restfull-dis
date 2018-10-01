@@ -33,22 +33,15 @@ public class UserEndpoint {
         //Du skal kalde en metode på din userTable som returnere en bruger
         //Denne bruger skal sendes til tilbage som JSON
 
-        User user = UserTable.getInstance().findById(id);
-        String output = new Gson().toJson(user);
-        System.out.println(output);
-
-
         return Response
                 .status(200)
                 .type("application/json")
-                .entity(output)
+                .entity("{}")
                 .build();
     }
 
     @POST
     public Response createUser(String jsonUser) {
-        User user = new Gson().fromJson(jsonUser, User.class);
-        UserTable.getInstance().addUser(user);
 
         return Response
                 .status(200)
