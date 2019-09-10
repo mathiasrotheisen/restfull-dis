@@ -31,7 +31,7 @@ Da Installationsprocessen for Windows og Mac er forskellig, skal du her kun føl
 ... så er du færdig!
 
 ##### Windows
-1. Hent denne installer http://dk.mirrors.quenda.co/apache/tomcat/tomcat-9/v9.0.12/bin/apache-tomcat-9.0.12.exe
+1. Hent denne installer http://dk.mirrors.quenda.co/apache/tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24.exe
 2. Åbn .exe filen og følg installationsguiden
 3. Åben "Configure Tomcat" (kan findes ved at søge, eller ved at åbne "tomcat8w.exe" i jeres installations mappe), og hvis der står "Service Status: Started" så skal i trykke på Stop.
 4. Hvis du får en Windows Defender pop-up besked som har stoppet din server, så tryk "flere oplysninger" og "kør alligevel"
