@@ -27,21 +27,25 @@ public class UserEndpoint {
     @GET
     @Path("{id}")
     public Response getUserById(@PathParam("id") int id){
+      //Færddigør createUser() metoden (main/java/server/endpoints/UserEndpoint), så der kan oprettes nye brugere i systemet.
+        // Til at teste dette kan programmer som f.eks. Advanced Rest Client eller Postman bruges.
 
-        //Lidt hjælp
-        //Kig på din createUser metode
-        //Du skal kalde en metode på din userTable som returnere en bruger
-        //Denne bruger skal sendes til tilbage som JSON
+        User u = UserTable.getInstance().findById(id);
+
+        String json = new Gson().toJson(u);
 
         return Response
                 .status(200)
                 .type("application/json")
-                .entity("{}")
+                .entity(json)
                 .build();
     }
 
     @POST
     public Response createUser(String jsonUser) {
+
+        User u = new Gson().fromJson(jsonUser, User.class);
+        UserTable.getInstance().addUser(u);
 
         return Response
                 .status(200)
